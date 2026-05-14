@@ -1,8 +1,12 @@
 #include <iostream>
-using namespace std;
+#include <string>
+
+// Entry point of the program
 int main(){
-string name;
-cin >> name;
-cout << "Hello world from @" << name << endl;
-return 0;
+    std::string name;
+    // Read username from standard input
+    std::cin >> name;
+    // Print greeting message
+    std::cout << "Hello world from @" << name << std::endl;
+    return 0;
 }
