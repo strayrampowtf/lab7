@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
 
-// Entry point of the program
+// Точка входа в программу
 int main(){
     std::string name;
-    // Read username from standard input
+   // Читаем имя пользователя со стандартного ввода
     std::cin >> name;
-    // Print greeting message
+    // Выводим приветствие
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
